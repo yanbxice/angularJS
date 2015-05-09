@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "imgURL": {
+            "mainURL": "./img/02.jpg",
+            "thumbnailURL": ["./img/02.jpg", "./img/14.jpg", "./img/15.jpg"]
+        },
+        "name": "Ariel",
+        "description": "Daughter of King Triton and the youngest of seven sisters, Ariel is a princess in the undersea kingdom Atlantica (according to later media in the franchise). Fascinated by the human world and tired of life under the sea, Ariel makes a deal with Ursula the sea witch, trading her voice in return for humanity. Based on the Danish fairy tale The Little Mermaid by Hans Christian Andersen, Ariel is voiced by Jodi Benson and animated by Glen Keane and Mark Henn. The character was inspired by the protagonist in Andersen's story, but was developed into a different personality for the film."
+    },
+    {
+        "id": 2,
+        "imgURL": {
+            "mainURL": "./img/03.jpg",
+            "thumbnailURL": ["./img/03.jpg", "./img/16.jpg", "./img/19.png"]
+        },
+        "name": "Aurora",
+        "description": "Aurora, originally voiced by Mary Costa and animated by Marc Davis, is the 3rd Disney Princess. She first appeared in Disney's 16th animated feature film Sleeping Beauty (1959). The motion picture is adapted from the French fairy tale The Sleeping Beauty by Charles Perrault (1697), from the German fairy tale Little Briar Rose (1812) by The Brothers Grimm and from The Sleeping Beauty ballet by Pyotr Ilyich Tchaikovsky (1890). Aurora has hair of sunshine gold and lips that shame the red rose; she is often described as beautiful, kind, shy and sophisticated. She is also a hopeless romantic."
+    },
+    {
+        "id": 3,
+        "imgURL": {
+            "mainURL": "./img/04.jpg",
+            "thumbnailURL": ["./img/04.jpg", "./img/20.jpg", "./img/22.jpg"]
+        },
+        "name": "Belle",
+        "description": "Frustrated with her provincial village life, book-loving Belle longs for adventure. When her father Maurice is imprisoned by a hideous beast, Belle sacrifices her own freedom in return for his. At first frightened by the Beast's physical appearance and repulsed by his selfishness, Belle learns to appreciate him after he rescues her from a pack of hungry wolves, expressing her gratitude by tending to his wounds. While the Beast's love for Belle gradually results in him adapting a more friendly and civil manner, Belle befriends him, eventually managing to fall in love with him by the time the last petal falls off an enchanted rose, which ultimately breaks a spell cast on him and transforms him back into a handsome prince."
+    },
+    {
+        "id": 4,
+        "imgURL": {
+            "mainURL": "./img/05.jpg",
+            "thumbnailURL": ["./img/05.jpg", "./img/24.jpg", "./img/10.jpg"]
+        },
+        "name": "Cinderella",
+        "description": "She is often considered the 'Leader of the Disney Princesses'. Forced into servitude by her evil stepmother, Lady Tremaine, and her two cruel stepsisters, Drizella and Anastasia, Cinderella dreams of going to the ball. When all seems lost, her fairy godmother allows her to attend, where she meets and falls in love with the Prince. Cinderella is based on the heroine of the French fairy tale Cinderella by Charles Perrault."
+    },
+    {
+        "id": 5,
+        "imgURL": {
+            "mainURL": "./img/06.jpg",
+            "thumbnailURL": ["./img/06.jpg", "./img/23.jpg", "./img/17.jpg"]
+        },
+        "name": "Jasmine",
+        "description": "Jasmine is fierce, bold, and confident, and she rarely allows anyone tell her what to do and what not to do. Jasmine hungers for independence, tired of the restrictions laid before her by her father. She falls in love with Aladdin while he is disguised as a prince, after he takes her on a romantic ride on a magic carpet. Aladdin's genie companion is summoned by Jafar, who uses the genie's magic to tyrannically overthrow Jasmine's father, the Sultan. Luckily, after Jafar's defeat, the Sultan permits Jasmine to wed Aladdin despite his lack of royal heritage."
+    },
+    {
+        "id": 6,
+        "imgURL": {
+            "mainURL": "./img/07.jpg",
+            "thumbnailURL": ["./img/07.jpg", "./img/19.png", "./img/20.jpg"]
+        },
+        "name": "Mulan",
+        "description": "Mulan, atypical and unlike most previous female roles, is courageous and more self-reliant. She also does not fit in with the expectations of a young Chinese girl of the time; despite her natural beauty, she is clumsy, outspoken, and independent rather than graceful, silent and demure. Her meeting with the matchmaker ended in chaos because of this, (with help from a certain cricket), and the matchmaker claimed that even though she had the looks of a bride, she would never find a match. However, her courage, intelligence, and determination helped her through her adventures, in which she disguises herself as a male soldier in order to fight in the Chinese army in place of her wounded father."
+    },
+    {
+        "id": 7,
+        "imgURL": {
+            "mainURL": "./img/08.jpg",
+            "thumbnailURL": ["./img/08.jpg", "./img/23.jpg", "./img/24.jpg"]
+        },
+        "name": "Rapunzel",
+        "description": "A princess born with long, magical golden hair, Rapunzel, stolen from her parents at infancy, is raised by Mother Gothel, a vain woman who is also an evil witch and exploits her hair to remain young and beautiful. Incarcerated in an isolated tower for eighteen years, Rapunzel enlists the help of a wanted thief named Flynn Rider to see the floating lanterns in time for her 18th birthday."
+    },
+    {
+        "id": 8,
+        "imgURL": {
+            "mainURL": "./img/09.jpg",
+            "thumbnailURL": ["./img/09.jpg", "./img/10.jpg", "./img/14.jpg"]
+        },
+        "name": "Snow White",
+        "description": "Snow White is a beautiful young princess born with skin as white as snow, hair as black as ebony, and lips red as a rose. She is forced to seek refuge in the home of the seven dwarfs, where she hides from her evil stepmother, the Evil Queen Grimhilde, who is jealous of Snow White's beauty and seeks her death. Snow White is often described as a kind, optimistic, tidy and happy person who sees the good in everyone."
+    }
+]

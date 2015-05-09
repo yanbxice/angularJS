@@ -1,0 +1,20 @@
+[
+    {
+        "stars": 1,
+        "body": "this sucks",
+        "username": "abc",
+        "createdOn": 1397490980837
+    },
+    {
+        "stars": 5,
+        "body": "OMG, I love it so much!",
+        "username": "abc",
+        "createdOn": 1397490980837
+    },
+    {
+        "stars": 5,
+        "body": "Yeah, good!",
+        "username": "abc",
+        "createdOn": 1397490980837
+    }
+]

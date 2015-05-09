@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html ng-app="storeApp">
+<head>
+    <meta charset="utf-8">
+    <title>My Small Online Store</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="./css/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/store-services.js"></script>
+</head>
+
+<body class="container-fluid" ng-controller="globalCtrl">
+    <div ng-controller="navCtrl">
+    <nav class="navbar navbar-default navbar-fixed-top" ng-hide="isHide">
+        <ul class="nav navbar-nav">
+            <li><a href="shopping-bag.html">shopping bag ({{buy.num}}) <i class="fa fa-shopping-cart"></i></a></li><li><a href="wish-list.html">whish list ({{wish.num}}) <i class="fa fa-list-alt"></i></a></li>
+        <ul>
+    </nav>
+    <header><nav>
+        <ul>
+            <li><a href="#"><i class="fa fa-diamond"></i><br>Home</a></li>
+            <li><a ng-click="scrollTo('info')"><i class="fa fa-bolt"></i><br>Info</a></li>
+            <li><a ng-click="scrollTo('shop-plant')"><i class="fa fa-shopping-cart"></i><br>Shop</a></li>
+            <li><a href="#"><i class="fa fa-heartbeat"></i><br>Contact</a></li>
+            <li><a href="#"><i class="fa fa-sun-o"></i><br>Gallery</a></li>
+        </ul></nav>
+        <div id="plants-down"><a ng-click="scrollTo('info')">MORE</a></div>
+    </header>
+    </div>
+    
+    <div class="row" id="info">
+        <div>This is information about this store</div>
+    </div>
+    
+    <div class="row" id="shop-plant" ng-controller="shopCtrl" ng-class="check() ? 'plant-details' : 'shop'" ng-view>
+
+    </div>
+</body>
+</html>

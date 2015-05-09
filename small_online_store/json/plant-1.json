@@ -1,0 +1,20 @@
+[
+    {
+        "stars": 5,
+        "body": "I love this plant",
+        "username": "abc",
+        "createdOn": 1397490980837
+    },
+    {
+        "stars": 4,
+        "body": "I like this plant",
+        "username": "abc",
+        "createdOn": 1397490980837
+    },
+    {
+        "stars": 3,
+        "body": "Worse than I expected",
+        "username": "abc",
+        "createdOn": 1397490980837
+    }
+]

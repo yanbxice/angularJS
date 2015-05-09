@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html ng-app="shopBagApp">
+<head>
+    <meta charset="utf-8">
+    <title>Shopping Bag</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="css/shopping-bag.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+    <script src="js/shopping-bag.js"></script>
+    <script src="js/store-services.js"></script>
+</head>
+<body class="container-fluid" ng-controller="globalCtrl">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <a class="go-back" href="http://localhost:8888/AngularJS/small_online_store/#shop-plant"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Continue shopping</a>
+        <ul class="nav navbar-nav">
+            <li><a href="shopping-bag.html">shopping bag ({{buy.num}}) <i class="fa fa-shopping-cart"></i></a></li><li><a href="wish-list.html">whish list ({{wish.num}}) <i class="fa fa-list-alt"></i></a></li>
+        <ul>
+    </nav>
+
+    <div class="buy-list" ng-controller="shopItemCtrl">
+    <div class="buy-item" ng-repeat="plant in plants">
+        <div class="thumbnail" ng-click="selectItem($event, plant.id)" ng-class="selectedObj[plant.id] ? 'selected' : 'unselected'">
+            <img ng-src="{{plant.imgURL.mainURL}}" alt="{{plant.name}}">
+            <div class="caption">
+                <h3><a href="http://localhost:8888/AngularJS/small_online_store/#/{{plant.id}}">{{plant.name}}</a></h3>
+                <p class="">{{getNum(plant.id)}}<a href ng-click="decItem(plant.id)" class="change-num-btn"><i class="fa fa-minus"></i></a><a href ng-click="augItem(plant.id)" class="change-num-btn"><i class="fa fa-plus"></i></a></p>
+                <p><a href="#/{{plant.id}}" class="btn btn-primary" role="button">Details</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div ng-controller="checkoutCtrl" class="checkout">
+        <a href data-toggle="tooltip" class="btn btn-success checkout-btn" role="button" ng-class="{'btn-danger': danger}" ng-click="checkDanger()">Check out</a>
+        <div class="my-tooltip" ng-class="{'display': danger}">Please select the item(s) your want to check out</div>
+    </div>
+</body>
+</html>

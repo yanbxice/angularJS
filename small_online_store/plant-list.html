@@ -1,0 +1,10 @@
+<div class="my-plants" ng-repeat="plant in plants">
+    <div class="thumbnail">
+        <img ng-src="{{plant.imgURL.mainURL}}" alt="{{plant.name}}">
+        <div class="caption">
+            <h3>{{plant.name}}</h3>
+            <p class="description">{{plant.description}}</p>
+            <p><a href="#/{{plant.id}}" class="btn btn-primary" role="button">Details</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+    </div>
+</div>

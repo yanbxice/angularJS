@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0px !important;
+  line-height: normal !important;
+  background: url(../img/29.jpg);
+  background-size: cover;
+}
+a {
+  color: black;
+  &:hover {
+    //text-decoration: none !important;
+    color: black !important;
+  }
+}
+.container-fluid {
+    padding: 0px !important;
+}
+.navbar {
+    .go-back {
+      float: left;
+      margin-top: 15px;
+      margin-left: 60px;
+      color: #777;
+      &:hover {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .navbar-nav {
+        float: right;
+        li {
+            margin-right: 60px;
+            cursor: pointer;
+        }
+    }
+}
+.buy-list {
+  padding: 80px 80px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+    .thumbnail {
+        display: inline-block;
+        &:hover {
+            border-color: green;
+        }
+        img {
+          height: 130px;
+        }
+        .change-num-btn {
+          float: right;
+          margin: 0px 5px;
+          color: #5cb85c;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+    }
+    .selected {
+      border-radius: 1px;
+      box-shadow: 0 0 0 2px orangered;
+      &:hover {
+        border-color: transparent;
+      }
+    }
+}
+.checkout {
+  margin-right: 60px;
+  float: right;
+  .checkout-btn {
+    font-size: 1.5em;
+  }
+  .my-tooltip {
+    width: 220px;
+    padding: 20px;
+    background-color: gold;
+    position: relative;
+    margin-top: -150px;
+    left: -40px;
+    color: red;
+    display: none;
+    -webkit-transform: translateY(10px);
+       -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+         -o-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+       -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+         -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    &:after {
+      border-left: solid transparent 10px;
+      border-right: solid transparent 10px;
+      border-top: solid gold 10px;
+      bottom: -10px;
+      content: " ";
+      height: 0;
+      left: 50%;
+      margin-left: -13px;
+      position: absolute;
+      width: 0;
+    }
+  }
+  .display {
+    display: block;
+  }
+}
